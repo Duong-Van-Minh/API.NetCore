@@ -1,25 +1,20 @@
 ﻿<Properties StartupConfiguration="{988675BF-2247-4CA3-BCC3-D7B5398489EF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Data/StoreContext.cs">
     <Files>
-      <File FileName="API/Startup.cs" Line="21" Column="52" />
-      <File FileName="API/Program.cs" Line="16" Column="1" />
-      <File FileName="API/Data/Migrations/StoreContextModelSnapshot.cs" Line="18" Column="61" />
-      <File FileName="API/Data/Migrations/20220324173130_InitialCreate.Designer.cs" />
+      <File FileName="API/Startup.cs" Line="35" Column="10" />
+      <File FileName="API/Program.cs" />
+      <File FileName="API/Controllers/WeatherForecastController.cs" />
+      <File FileName="API/Controllers/ProductsController.cs" />
+      <File FileName="API/store.db" />
+      <File FileName="API/Data/StoreContext.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="API" expanded="True">
-            <Node name="API" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True">
-                  <Node name="20220324173130_InitialCreate.cs" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Program.cs" selected="True" />
+            <Node name="API" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
             </Node>
           </Node>
         </State>

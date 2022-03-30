@@ -52,5 +52,4 @@
 /Users/mjlq2/ReStore/API/API/obj/Debug/net5.0/ref/API.dll
 /Users/mjlq2/ReStore/API/API/obj/Debug/net5.0/API.pdb
 /Users/mjlq2/ReStore/API/API/obj/Debug/net5.0/API.genruntimeconfig.cache
-/Users/mjlq2/ReStore/API/API/bin/Debug/net5.0/API
 /Users/mjlq2/ReStore/API/API/obj/Debug/net5.0/API.csproj.AssemblyReference.cache
