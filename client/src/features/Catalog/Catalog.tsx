@@ -1,13 +1,16 @@
+import { Button } from "@mui/material";
 import { Fragment } from "react";
-
-export default function Catalog(props: any){
+import { Product } from "../../app/models/product";
+import ProductList from "./ProductList";
+interface Pros {
+    products: Product[];
+    addProduct: () => void;
+}
+export default function Catalog(props: Pros){
     return (
         <Fragment>
-                    <ul>
-                    {props.products.map((products: any) => (
-                    <li>{products.name} - {products.price}</li>
-                    ))}
-                </ul>
+                   <ProductList products={props.products}/>
+                <Button variant="contained" onClick={props.addProduct}>Add product</Button>
         </Fragment>
     )
 }
